@@ -361,6 +361,7 @@ li
 .progress-bar-label
 {
 	font-family:sans-serif;
+	font-size:2rem;
 }
 
 
@@ -510,8 +511,13 @@ li
 
 @media screen and (max-width:768px)
 {
-	.landing-text h1
-	{
+     .progress-bar-label
+{
+	font-family:sans-serif;
+	font-size:1.5rem;
+}
+    .landing-text h1
+     {
 		font-size:6.8rem;
      }
      .landing-text h3
