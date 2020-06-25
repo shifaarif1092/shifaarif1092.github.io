@@ -576,7 +576,12 @@ li
 }
 
 @media screen and (max-width:600px)
-{   
+{       
+	.progress-bar-label
+       {
+	font-family:sans-serif;
+	font-size:1.5rem;
+       }
 	.menu-toggler
 	{
 		top:2rem;
@@ -680,6 +685,11 @@ li
 }
 @media screen and (max-width:400px)
 {
+	.progress-bar-label
+      {
+	font-family:sans-serif;
+	font-size:1.3rem;
+      }
 	.top-nav .nav-list li
    {
    	margin:2rem 0;
