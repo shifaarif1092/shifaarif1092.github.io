@@ -549,7 +549,7 @@ form
 {   
      p
     {
-	line-height:1;
+	line-height:1.5;
     }
 		
      .progress-bar-label
@@ -620,7 +620,7 @@ form
 {       
 	p
 	{
-	  line-height:1;
+	  line-height:1.5;
 	}
 	label
 	{
@@ -735,7 +735,7 @@ form
 @media screen and (max-width:400px)
 {     p
 	{
-		line-height:1;
+		line-height:1.5;
 	}
 	.progress-bar-label
       {
