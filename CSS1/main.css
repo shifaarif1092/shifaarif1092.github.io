@@ -360,9 +360,7 @@ form
     margin-bottom: 24px;
     border-width: 1px;
     border-style: solid;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    overflow: visible;
+    /*overflow: visible;*/
 }
 
 .progress-bar span {
@@ -389,8 +387,6 @@ form
     border-style: solid;
     line-height: 8px;
     position: relative;
-    -webkit-box-shadow: none;
-    box-shadow: none;
     border-radius:5px;
 }
 .progress-bar-label
@@ -499,7 +495,7 @@ form
 	position:absolute;
 	display:block;
 	top:50%;
-	transform:translateY(-50%);
+	/*transform:translateY(-50%);*/
 }
 .timeline .date::before
 {
