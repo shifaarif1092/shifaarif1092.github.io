@@ -105,7 +105,7 @@ header
     z-index:50;
 	border-bottom-right-radius:100%; 
 	border-bottom-left-radius:100%;
-	transition:all 650ms cubic-bezier(1,0,0,1);
+	transition:all 650ms;
 }
 .nav-list
 {
@@ -170,7 +170,7 @@ li
 
 .bar.start{
     transform-origin: right;
-    transition: 650ms cubic-bezier(0.54, -0.80, 0.57, 0.57);
+    transition: 650ms;
 }
 
 .open .bar.start{
@@ -180,7 +180,7 @@ li
 .bar.end{
     align-self: flex-end;
     transform-origin: left;
-    transition: 650ms cubic-bezier(0.54, -0.80, 0.57, 0.57);
+    transition: 650ms ;
 }
 
 .open .bar.end{
